@@ -1,0 +1,92 @@
+/*p {
+    color: #30edf2;
+    color: rgba(0,0,255,0.5); /* Le a permet l'opacité */
+    
+    /*font-size: 30px;
+    font-size: 2em; /* 1em correspond à 100%, 2em le texte est 2 fois plus gros et 0.5em le texte est 2 fois plus petit */
+    
+    /*font-family: Calibri, Arial, cursive; /* Teste dans l'ordre les polices */
+    /* 3 polices intégrées au CSS: serif, sans-serif et cursive */
+    /*font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+div div p{
+    font-size: 15px;
+    color: grey;
+}
+
+.special {
+    color: orange;
+}
+
+#unique {
+    font-size: 80px;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: blue;
+}*/
+
+
+/*p {
+    display: none;
+    background-color: yellow;
+    width: 200px;
+}*/
+
+/*.red {
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    /*border-style: solid;
+    border-width: 5px;
+    border-color: grey;*/
+/*
+    border-left: 10px solid green;
+    padding: 50px 20px;
+*/
+    
+/*}*/
+
+/*
+.blue {
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+}
+*/
+
+.left {
+    height: 1450px;
+    width: 200px;
+    background-color: blue;
+}
+
+.right {
+    height: 250px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#container {
+    margin-top: 200px;
+    margin-left: 200px;
+    position: relative;
+}
