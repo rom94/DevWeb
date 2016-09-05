@@ -1,0 +1,64 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+.wrapper {
+    width: 940px;
+    margin: O auto;
+    padding: 0 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+/* HEADER */
+
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
