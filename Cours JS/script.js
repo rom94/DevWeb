@@ -113,4 +113,45 @@ console.log(agrumes);
 var myArray = [[0,1], [5,7,8], [12, 118]];
 console.log(myArray[2][1]);*/
 
-//Objects
+/*//Objects
+var dog = {
+    name:"Fripouille",
+    color:"blanc",
+    age:4
+};
+console.log(dog.name); // Ou console.log(dog["name"]);
+
+for(var property in dog){
+    console.log(dog[property]);
+}
+
+var dog1 = new Object();
+dog1.name = "Tarzan";
+dog1.age = 5;
+dog1.aboie = function(number)
+    {
+        while(number > 0 ){
+            console.log(number.toString() + " Wouaf!");
+            number--;}
+    };
+
+dog1.aboie(4);*/
+
+//Prototypes
+function Dog(name, color, age){
+    this.name = name;
+    this.color = color;
+    this.age = age;
+    this.aboie = function(){
+        console.log("Wouaf " + this.name);
+    }
+}
+
+var petitCaniche = new Dog("Fripouille", "Noir", 4);
+var grosPitbull = new Dog("Rex", "Noir", 2);
+
+console.log(petitCaniche);
+console.log(grosPitbull);
+
+petitCaniche.aboie();
+grosPitbull.aboie();
