@@ -200,8 +200,16 @@ $(document).ready(function(){
         $('p').filter('.special').css('border-color', 'green');
     });*/
 
-    $('#start').click(function() {
+    /*$('#start').click(function() {
         $('p').not('.special').css('border-color', 'green');
+    });*/
+
+    /*$('#start').click(function() {
+        $('#div2').load('demo.txt');
+    });*/
+
+    $('#start').click(function() {
+        $('div#div2').css('border-color', 'green');
     });
 
 
