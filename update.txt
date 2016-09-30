@@ -1,0 +1,6 @@
+Pour enlever les petit points (bullets), il faut rajouter ça dans votre CSS (dans la partie générale):
+
+ul,ol
+{
+list-style:none;
+}
