@@ -1,0 +1,7 @@
+Pour que l’animation fonctionne également sur Firefox, il faut écrire:
+
+$('body,html').animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;})
+
+au lieu de
+
+$('body').animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;})
